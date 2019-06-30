@@ -1,4 +1,4 @@
 # Modulo architecture Blackpill pendant
 
-!(pendant1.jpg)
-!(pendant2.jpg)
+![Pendant](pendant1.jpg)
+![Pendant](pendant2.jpg)
