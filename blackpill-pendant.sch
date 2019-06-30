@@ -1,0 +1,313 @@
+EESchema Schematic File Version 4
+LIBS:blackpill-pendant-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BlackPill:BlackPillSymple U1
+U 1 1 5CFE8BD2
+P 2450 3575
+F 0 "U1" H 2450 4940 50  0000 C CNN
+F 1 "BlackPillSymple" H 2450 4849 50  0000 C CNN
+F 2 "eswai:BlackPillSimple" H 2450 1425 50  0001 C CNN
+F 3 "" H 2450 1425 50  0001 C CNN
+	1    2450 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:MJ-4PP-9 J1
+U 1 1 5CFEA837
+P 4425 2600
+F 0 "J1" H 4456 2876 50  0000 C CNN
+F 1 "MJ-4PP-9" H 4456 2785 50  0000 C CNN
+F 2 "eswai:MJ-4PP-9" H 4700 2775 50  0001 C CNN
+F 3 "~" H 4700 2775 50  0001 C CNN
+	1    4425 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:MJ-4PP-9 J2
+U 1 1 5CFEB7BD
+P 4425 3275
+F 0 "J2" H 4456 3551 50  0000 C CNN
+F 1 "MJ-4PP-9" H 4456 3460 50  0000 C CNN
+F 2 "eswai:MJ-4PP-9" H 4700 3450 50  0001 C CNN
+F 3 "~" H 4700 3450 50  0001 C CNN
+	1    4425 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5CFEBE50
+P 4275 4125
+F 0 "R1" H 4345 4171 50  0000 L CNN
+F 1 "R" H 4345 4080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4205 4125 50  0001 C CNN
+F 3 "~" H 4275 4125 50  0001 C CNN
+	1    4275 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CFECB4F
+P 4625 4125
+F 0 "R2" H 4695 4171 50  0000 L CNN
+F 1 "R" H 4695 4080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4555 4125 50  0001 C CNN
+F 3 "~" H 4625 4125 50  0001 C CNN
+	1    4625 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CFED1CE
+P 4975 4125
+F 0 "R3" H 5045 4171 50  0000 L CNN
+F 1 "R" H 5045 4080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4905 4125 50  0001 C CNN
+F 3 "~" H 4975 4125 50  0001 C CNN
+	1    4975 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CFED70D
+P 5325 4125
+F 0 "R4" H 5395 4171 50  0000 L CNN
+F 1 "R" H 5395 4080 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5255 4125 50  0001 C CNN
+F 3 "~" H 5325 4125 50  0001 C CNN
+	1    5325 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5CFEDD7A
+P 3425 1325
+F 0 "#PWR02" H 3425 1075 50  0001 C CNN
+F 1 "GND" H 3430 1152 50  0000 C CNN
+F 2 "" H 3425 1325 50  0001 C CNN
+F 3 "" H 3425 1325 50  0001 C CNN
+	1    3425 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5CFEE5A8
+P 3425 1200
+F 0 "#FLG01" H 3425 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 3425 1373 50  0000 C CNN
+F 2 "" H 3425 1200 50  0001 C CNN
+F 3 "~" H 3425 1200 50  0001 C CNN
+	1    3425 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5CFEEC43
+P 4000 1175
+F 0 "#PWR01" H 4000 1025 50  0001 C CNN
+F 1 "VCC" H 4017 1348 50  0000 C CNN
+F 2 "" H 4000 1175 50  0001 C CNN
+F 3 "" H 4000 1175 50  0001 C CNN
+	1    4000 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5CFEF46F
+P 4000 1325
+F 0 "#FLG02" H 4000 1400 50  0001 C CNN
+F 1 "PWR_FLAG" H 4000 1498 50  0000 C CNN
+F 2 "" H 4000 1325 50  0001 C CNN
+F 3 "~" H 4000 1325 50  0001 C CNN
+	1    4000 1325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3425 1200 3425 1325
+Wire Wire Line
+	4000 1175 4000 1325
+$Comp
+L power:GND #PWR03
+U 1 1 5CFF06CD
+P 5100 2525
+F 0 "#PWR03" H 5100 2275 50  0001 C CNN
+F 1 "GND" H 5105 2352 50  0000 C CNN
+F 2 "" H 5100 2525 50  0001 C CNN
+F 3 "" H 5100 2525 50  0001 C CNN
+	1    5100 2525
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 2675 3    50   Input ~ 0
+SDA1
+Text GLabel 4875 2625 3    50   Input ~ 0
+SCL1
+Wire Wire Line
+	4625 2675 4750 2675
+Wire Wire Line
+	4625 2625 4875 2625
+Wire Wire Line
+	4625 2525 5100 2525
+$Comp
+L power:GND #PWR05
+U 1 1 5CFF2E25
+P 5100 3200
+F 0 "#PWR05" H 5100 2950 50  0001 C CNN
+F 1 "GND" H 5105 3027 50  0000 C CNN
+F 2 "" H 5100 3200 50  0001 C CNN
+F 3 "" H 5100 3200 50  0001 C CNN
+	1    5100 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 3350 3    50   Input ~ 0
+SDA2
+Text GLabel 4875 3300 3    50   Input ~ 0
+SCL2
+Wire Wire Line
+	4625 3350 4750 3350
+Wire Wire Line
+	4625 3300 4875 3300
+Wire Wire Line
+	4625 3200 5100 3200
+Wire Wire Line
+	4275 3975 4625 3975
+Connection ~ 4625 3975
+Wire Wire Line
+	4625 3975 4975 3975
+Connection ~ 4975 3975
+Wire Wire Line
+	4975 3975 5325 3975
+Text GLabel 4975 4275 3    50   Input ~ 0
+SDA2
+Text GLabel 5325 4275 3    50   Input ~ 0
+SCL2
+Text GLabel 4275 4275 3    50   Input ~ 0
+SDA1
+Text GLabel 4625 4275 3    50   Input ~ 0
+SCL1
+$Comp
+L power:GND #PWR0101
+U 1 1 5CFF763C
+P 3000 4375
+F 0 "#PWR0101" H 3000 4125 50  0001 C CNN
+F 1 "GND" H 3005 4202 50  0000 C CNN
+F 2 "" H 3000 4375 50  0001 C CNN
+F 3 "" H 3000 4375 50  0001 C CNN
+	1    3000 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CFF7F1C
+P 1900 4375
+F 0 "#PWR0102" H 1900 4125 50  0001 C CNN
+F 1 "GND" H 1905 4202 50  0000 C CNN
+F 2 "" H 1900 4375 50  0001 C CNN
+F 3 "" H 1900 4375 50  0001 C CNN
+	1    1900 4375
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 2775 2    50   Input ~ 0
+SDA2
+Text GLabel 3000 2875 2    50   Input ~ 0
+SCL2
+Text GLabel 1900 4075 0    50   Input ~ 0
+SCL1
+Text GLabel 1900 4175 0    50   Input ~ 0
+SDA1
+NoConn ~ 1900 2775
+NoConn ~ 1900 2875
+NoConn ~ 1900 2975
+NoConn ~ 1900 3075
+NoConn ~ 1900 3175
+NoConn ~ 1900 3275
+NoConn ~ 1900 3375
+NoConn ~ 1900 3475
+NoConn ~ 1900 3575
+NoConn ~ 1900 3675
+NoConn ~ 1900 3775
+NoConn ~ 1900 3875
+NoConn ~ 1900 3975
+NoConn ~ 3000 2975
+NoConn ~ 3000 3075
+NoConn ~ 3000 3175
+NoConn ~ 3000 3275
+NoConn ~ 3000 3375
+NoConn ~ 3000 3475
+NoConn ~ 3000 3575
+NoConn ~ 3000 3675
+NoConn ~ 3000 3775
+NoConn ~ 3000 3875
+NoConn ~ 3000 3975
+NoConn ~ 3000 4075
+NoConn ~ 3000 4175
+NoConn ~ 3000 4275
+Text GLabel 1900 4275 0    50   Input ~ 0
+3V
+Text GLabel 5000 2575 3    50   Input ~ 0
+3V
+Text GLabel 5000 3250 3    50   Input ~ 0
+3V
+Wire Wire Line
+	4625 3250 5000 3250
+Wire Wire Line
+	4625 2575 5000 2575
+Text GLabel 4275 3975 1    50   Input ~ 0
+3V
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D056978
+P 3975 5250
+F 0 "H1" H 4075 5296 50  0000 L CNN
+F 1 "MountingHole" H 4075 5205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3975 5250 50  0001 C CNN
+F 3 "~" H 3975 5250 50  0001 C CNN
+	1    3975 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D057164
+P 3975 5575
+F 0 "H2" H 4075 5621 50  0000 L CNN
+F 1 "MountingHole" H 4075 5530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3975 5575 50  0001 C CNN
+F 3 "~" H 3975 5575 50  0001 C CNN
+	1    3975 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D057913
+P 3975 5950
+F 0 "H3" H 4075 5996 50  0000 L CNN
+F 1 "MountingHole" H 4075 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3975 5950 50  0001 C CNN
+F 3 "~" H 3975 5950 50  0001 C CNN
+	1    3975 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D05791D
+P 3975 6275
+F 0 "H4" H 4075 6321 50  0000 L CNN
+F 1 "MountingHole" H 4075 6230 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 3975 6275 50  0001 C CNN
+F 3 "~" H 3975 6275 50  0001 C CNN
+	1    3975 6275
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
